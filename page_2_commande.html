@@ -58,8 +58,54 @@
 				  </br>
 				  
 				  </div>
+				</br>
+				  <h3><strong>Git config</strong></h3>
+                  <ul>
+					<li>L’une des commandes git les plus utilisées est <strong>git config.</strong>&nbsp;On l’utilise pour configurer les préférences de l’utilisateur : son mail, l’algorithme utilisé pour diff, le nom d’utilisateur et le format de fichier etc. Par exemple, la commande suivante peut être utilisée pour définir le mail d’un utilisateur:
+					</li>
+					</ul>
+				  <div class="highlight"> <pre class="">git config --global user.email sam@google.com</pre>
+				  </br>
+				</br>
 				
+				  </div>
+				  <h3><strong>Git Init</strong></h3>
+                  <ul>
+					<li> Cette commande est utilisée pour créer un nouveau dépôt GIT :
+					</li>
+					</ul>
+				  <div class="highlight"> <pre class="">git init</pre>
 				
 
 				</div>
+				<h3><strong>Git add</strong></h3>
+                  <ul>
+					<li> La commande git add peut être utilisée pour ajouter des fichiers à l’index. Par exemple, la commande suivante ajoutera un fichier nommé temp.txt dans le répertoire local de l’index:
+					</li>
+					</ul>
+				  <div class="highlight"> <pre class="">git add temp.txt</pre>
+
 			  </div>
+			  <h3><strong>Git commit</strong></h3>
+                  <ul>
+					<li>La commande git commit permet de valider les modifications apportées au HEAD. Notez que tout commit ne se fera pas dans le dépôt distant.
+					</li>
+					</ul>
+				  <div class="highlight"> <pre class="">git commit –m “Description du commit”</pre>
+			 </div>
+			 <h3><strong>Git status</strong></h3>
+			 <ul>
+			   <li> La commande git status affiche la liste des fichiers modifiés ainsi que les fichiers qui doivent encore être ajoutés ou validés. Usage:
+			   </li>
+			   </ul>
+			 <div class="highlight"> <pre class="">git status</pre>
+			 </div>
+			 <h3><strong>Git push</strong></h3>
+			 <ul>
+			   <li> Git push est une autre commandes GIT de base. Un simple push envoie les modifications locales apportées à la branche principale associée :
+			   </li>
+			   </ul>
+			 <div class="highlight"> <pre class="">git push origin master</pre>
+
+
+
